@@ -1,4 +1,7 @@
 import json
+import numpy
+
+
 
 data_json = open('data.json').read()
 data = json.loads(data_json)
